@@ -1,9 +1,7 @@
 // Inside a project, run npm init to start a package.json file and answer the questions!
 // You then can use npm install mocha -D to add Mocha into the dependencies in package.json to make it easier for other developers to install using simply ‘npm install’!
 // We will then set Mocha in our package.json so we can use it by simply saying npm test by writing: 
-// "scripts": {
-//   "test": "mocha ./instructions.js" }
-// }
+// "scripts": { "test": "mocha ./instructions.js" }
 
 //Phase 1: create a test that will fail
 //first create a describe block for test suite called Math

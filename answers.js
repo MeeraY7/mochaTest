@@ -1,8 +1,9 @@
 const assert = require("assert");
 const Mathematics = require("./providing.js");
 // Create a test suite (group) called Math
-describe("Math", function () {
+describe("Math", () => {
   // Test One: A string explanation of what we're testing
+  // also an older function! How do we convert it to ES6 fat arrow notation?
   it("should test if 3*3 = 9", function () {
     // Our actual test: 3*3 SHOULD EQUAL 9
     assert.equal(9, Mathematics.multiply(3, 3));
