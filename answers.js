@@ -1,5 +1,5 @@
-var assert = require("assert");
-var Mathematics = require("./providing.js");
+const assert = require("assert");
+const Mathematics = require("./providing.js");
 // Create a test suite (group) called Math
 describe("Math", function () {
   // Test One: A string explanation of what we're testing
